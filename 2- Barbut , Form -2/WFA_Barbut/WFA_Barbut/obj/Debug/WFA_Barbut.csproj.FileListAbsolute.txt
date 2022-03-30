@@ -1,0 +1,12 @@
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\bin\Debug\WFA_Barbut.exe.config
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\bin\Debug\WFA_Barbut.exe
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\bin\Debug\WFA_Barbut.pdb
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\obj\Debug\WFA_Barbut.csproj.AssemblyReference.cache
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\obj\Debug\WFA_Barbut.csproj.SuggestedBindingRedirects.cache
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\obj\Debug\WFA_Barbut.Form1.resources
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\obj\Debug\WFA_Barbut.Properties.Resources.resources
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\obj\Debug\WFA_Barbut.csproj.GenerateResource.cache
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\obj\Debug\WFA_Barbut.csproj.CoreCompileInputs.cache
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\obj\Debug\WFA_Barbut.exe
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\obj\Debug\WFA_Barbut.pdb
+C:\Users\ENES PC\source\repos\WFA_Barbut\WFA_Barbut\obj\Debug\WFA_Barbut.Form2.resources
