@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFA_Inheritance", "WFA_Inheritance\WFA_Inheritance.csproj", "{09A9CE5C-F5A7-4FDB-85D3-611861D001ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFA_KitapKutusu", "WFA_KitapKutusu\WFA_KitapKutusu.csproj", "{779D019C-092C-45E2-9205-172FFF5C9F26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09A9CE5C-F5A7-4FDB-85D3-611861D001ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A9CE5C-F5A7-4FDB-85D3-611861D001ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A9CE5C-F5A7-4FDB-85D3-611861D001ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A9CE5C-F5A7-4FDB-85D3-611861D001ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779D019C-092C-45E2-9205-172FFF5C9F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779D019C-092C-45E2-9205-172FFF5C9F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779D019C-092C-45E2-9205-172FFF5C9F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779D019C-092C-45E2-9205-172FFF5C9F26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BCE18AC-AF01-4366-98AB-58B73EDEEA19}
+	EndGlobalSection
+EndGlobal
