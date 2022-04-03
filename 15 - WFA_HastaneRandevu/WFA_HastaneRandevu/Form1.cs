@@ -25,7 +25,6 @@ namespace WFA_HastaneRandevu
             //Datetimepicker geçmiş tarih seçilemeyecek.
             //Tarih seçince runtimede flowpanel içine randevu butonları gelecek.Butona tıklayınca Evet Hayır sorusu gelecek.Evet seçilirse rengı kırmızı olacak ve bir daha tıklanmayacak.
         }
-
         private void btnBransEkle_Click(object sender, EventArgs e)
         {
             if (txtBrans.Text != String.Empty)
