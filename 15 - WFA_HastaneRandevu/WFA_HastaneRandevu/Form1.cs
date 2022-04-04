@@ -37,6 +37,8 @@ namespace WFA_HastaneRandevu
                     {
                         cmbBrans.Items.Add(br);
                         cmbRandevuBrans.Items.Add(br.BransAd);
+                        //cmbBrans.DataSource = brans;
+                        //cmbBrans.DataSource = brans.branslar.ToList(); --DataSource ile de cmbbox'a ekleme yapabiliriz. Buda bizden direkt olarak object bekliyor.
                     }
                     else
                     {
