@@ -66,7 +66,7 @@ namespace WFA_McMan
                             break;
                         default:
                             MessageBox.Show("You didn't make a menu selection.!");
-                            break;                            
+                            return;                            
                     }
                     if (rbLarge.Checked)
                     {
