@@ -15,20 +15,19 @@ namespace WFA_McManOOP
         public HamburgerForm(Roles role)
         {
             InitializeComponent();
-            Menus.Settings(cmbMenu,flpExtra);
-           user.Role = role;
-        }
-
+            Menus.Settings(cmbMenu, flpExtra);
+            user.Role = role;
+        }        
         //Variables
         decimal menuPrice = 0;
         object obj;
         string extras = string.Empty;
         Users user = new Users();
         private void btnCalculate_Click(object sender, EventArgs e)
-        {            
+        {
             decimal hbPrice = 0;
             List<Hambuger> hbList = new List<Hambuger>();
-            List<Extra> exList = new List<Extra>();            
+            List<Extra> exList = new List<Extra>();
             if (nudQuantity.Value >= 1)
             {
                 foreach (Hambuger h in Hambuger.hambugerList)
@@ -78,7 +77,7 @@ namespace WFA_McManOOP
                                 Hambuger h = (Hambuger)obj;
                                 h.Price += ex.Price;
                                 exList.Add(ex);
-                                extras += ex.ExtraName+" ";
+                                extras += ex.ExtraName + " ";
                                 obj = h;
                                 break;
                             }
@@ -93,7 +92,7 @@ namespace WFA_McManOOP
                 lblListAmount.Text = menuPrice.ToString("C2");
                 string format = $"{hamburger.HambugerName} {hamburger.Dimension} ({extras}) Quantity=>{nudQuantity.Value} Price =>{hamburger.Price.ToString("C2")} ";
                 listBox1.Items.Add(format);
-                extras=String.Empty;
+                extras = String.Empty;
                 hamburger.Price = hbPrice;
             }
             else
@@ -111,7 +110,7 @@ namespace WFA_McManOOP
         }
 
         private void btnAdmin_Click(object sender, EventArgs e)
-        {            
+        {
             AdminForm aForm = new AdminForm();
             aForm.Show();
             this.Hide();
