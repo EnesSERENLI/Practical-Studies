@@ -46,7 +46,7 @@ namespace WFA_KimAnlatir
                         {
                             lvi.Text = kisi.Ad;
                             lvi.SubItems.Add(kisi.Soyad);
-                            lvi.SubItems.Add(konuListesi[rastgeleKonu].ToString());
+                            lvi.SubItems.Add(konuListesi[rastgeleKonu].ToString());                           
                             kisi.Puan += 5;
                             lvi.SubItems.Add(kisi.Puan.ToString());
                             listView1.Items.Add(lvi);
@@ -75,7 +75,7 @@ namespace WFA_KimAnlatir
 
         private void btn2ndChance_Click(object sender, EventArgs e)
         {
-            //Konuyu beğenmezse sadece 1 kere değiştirme şansı olsun...
+            //Konuyu beğenmezse sadece 1 kere değiştirme şansı olsun...          
             for (int i = 0; i < 1; i++)
             {
                 Random rnd = new Random();
@@ -83,9 +83,13 @@ namespace WFA_KimAnlatir
                 ListViewItem lvi = (ListViewItem)obj;
                 if (lvi.SubItems[2].Text != konuListesi[rstkonu].ToString())
                 {
-                    MessageBox.Show(konuListesi[rstkonu].ToString());
-                    lvi.SubItems[2].Text = konuListesi[rstkonu].ToString();
-                    btn2ndChance.Enabled = false;
+                    MessageBox.Show("Yeni gelen konu => "+konuListesi[rstkonu].ToString());
+                    DialogResult dr = MessageBox.Show("Yeni konu mu olsun eskisi mi kalsın ?","Konu seçmece",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+                    if (dr == DialogResult.Yes)
+                    {
+                        lvi.SubItems[2].Text = konuListesi[rstkonu].ToString();
+                        btn2ndChance.Enabled = false;
+                    }                    
                 }
                 else
                 {
