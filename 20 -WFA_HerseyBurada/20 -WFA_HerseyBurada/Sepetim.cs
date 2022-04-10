@@ -34,6 +34,7 @@ namespace _20__WFA_HerseyBurada
                 toplamTutar = 0;
                 lblToplam.Text = toplamTutar.ToString();
                 MessageBox.Show("Siparişiniz alınmıştır! İyi günlerde kullanın.","Sipariş Bilgilendirme",MessageBoxButtons.OK,MessageBoxIcon.Information);
+
             }
         }
     }
