@@ -22,6 +22,7 @@ namespace WFA_EF_Northwind.Froms
             NorthwindEntities db = new NorthwindEntities();
             foreach (User u in db.Users)
             {
+                //kullanıcı adı:admin pass:1234
                 if(u.Username.ToLower() == txtUserName.Text.ToLower() && u.Password.ToLower() == txtPassword.Text.ToLower())
                 {
                     Form1 f1 = new Form1();
