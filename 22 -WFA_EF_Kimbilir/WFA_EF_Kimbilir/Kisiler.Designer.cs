@@ -79,7 +79,7 @@
             // columnHeader3
             // 
             this.columnHeader3.Text = "Soyad";
-            this.columnHeader3.Width = 200;
+            this.columnHeader3.Width = 132;
             // 
             // columnHeader4
             // 
@@ -197,7 +197,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 602);
+            this.ClientSize = new System.Drawing.Size(1191, 602);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.btnKisiGuncelle);
             this.Controls.Add(this.btnKisiSil);
