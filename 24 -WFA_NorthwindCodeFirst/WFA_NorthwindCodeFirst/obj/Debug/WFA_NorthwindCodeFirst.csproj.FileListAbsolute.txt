@@ -1,0 +1,16 @@
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\bin\Debug\WFA_NorthwindCodeFirst.exe.config
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\bin\Debug\WFA_NorthwindCodeFirst.exe
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\bin\Debug\WFA_NorthwindCodeFirst.pdb
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\obj\Debug\WFA_NorthwindCodeFirst.csproj.AssemblyReference.cache
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\obj\Debug\WFA_NorthwindCodeFirst.csproj.SuggestedBindingRedirects.cache
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\obj\Debug\WFA_NorthwindCodeFirst.Form1.resources
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\obj\Debug\WFA_NorthwindCodeFirst.Properties.Resources.resources
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\obj\Debug\WFA_NorthwindCodeFirst.csproj.GenerateResource.cache
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\obj\Debug\WFA_NorthwindCodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\obj\Debug\WFA_NorthwindCodeFirst.csproj.CopyComplete
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\obj\Debug\WFA_NorthwindCodeFirst.exe
+C:\Users\ENES PC\source\repos\DataAccess\WFA_NorthwindCodeFirst\WFA_NorthwindCodeFirst\obj\Debug\WFA_NorthwindCodeFirst.pdb
