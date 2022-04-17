@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\20 -WFA_HerseyBurada\\20 -WFA_HerseyBurada",
     "\\23 -WFA_EF_Northwind",
     "\\23 -WFA_EF_Northwind\\WFA_EF_Northwind",
     "\\23 -WFA_EF_Northwind\\WFA_EF_Northwind\\Froms"
   ],
-  "SelectedNode": "\\23 -WFA_EF_Northwind\\WFA_EF_Northwind\\Froms\\ReportForm.cs",
   "PreviewInSolutionExplorer": false
 }
