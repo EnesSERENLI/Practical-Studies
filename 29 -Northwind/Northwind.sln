@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B70C243-1093-4F0F-B200-A2A855BD4D78}"
+	ProjectSection(SolutionItems) = preProject
+		Customer.html = Customer.html
+		Employee.html = Employee.html
+		Northwind.html = Northwind.html
+		Order.html = Order.html
+		Product.html = Product.html
+		Shipper.html = Shipper.html
+		Supplier.html = Supplier.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F69776FB-3F63-490D-AE42-3A94AB0C1D7A}
+	EndGlobalSection
+EndGlobal
