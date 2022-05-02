@@ -1,0 +1,13 @@
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\obj\Debug\WFA_AbstructProduct.csproj.AssemblyReference.cache
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\obj\Debug\WFA_AbstructProduct.csproj.SuggestedBindingRedirects.cache
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\obj\Debug\WFA_AbstructProduct.CategoryForm.resources
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\obj\Debug\WFA_AbstructProduct.ProductForm.resources
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\obj\Debug\WFA_AbstructProduct.Properties.Resources.resources
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\obj\Debug\WFA_AbstructProduct.SupplierForm.resources
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\obj\Debug\WFA_AbstructProduct.csproj.GenerateResource.cache
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\obj\Debug\WFA_AbstructProduct.csproj.CoreCompileInputs.cache
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\bin\Debug\WFA_AbstructProduct.exe.config
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\bin\Debug\WFA_AbstructProduct.exe
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\bin\Debug\WFA_AbstructProduct.pdb
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\obj\Debug\WFA_AbstructProduct.exe
+C:\Users\ENES PC\source\repos\OOP\WFA_Absraction\WFA_AbstructProduct\obj\Debug\WFA_AbstructProduct.pdb

@@ -1,0 +1,11 @@
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\bin\Debug\WFA_Inheritance.exe.config
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\bin\Debug\WFA_Inheritance.exe
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\bin\Debug\WFA_Inheritance.pdb
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\obj\Debug\WFA_Inheritance.csproj.AssemblyReference.cache
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\obj\Debug\WFA_Inheritance.csproj.SuggestedBindingRedirects.cache
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\obj\Debug\WFA_Inheritance.Form1.resources
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\obj\Debug\WFA_Inheritance.Properties.Resources.resources
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\obj\Debug\WFA_Inheritance.csproj.GenerateResource.cache
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\obj\Debug\WFA_Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\obj\Debug\WFA_Inheritance.exe
+C:\Users\ENES PC\source\repos\OOP\WFA_Inheritance\WFA_Inheritance\obj\Debug\WFA_Inheritance.pdb

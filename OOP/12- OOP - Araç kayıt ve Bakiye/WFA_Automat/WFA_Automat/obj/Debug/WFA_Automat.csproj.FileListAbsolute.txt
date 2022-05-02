@@ -1,0 +1,11 @@
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\bin\Debug\WFA_Automat.exe.config
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\bin\Debug\WFA_Automat.exe
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\bin\Debug\WFA_Automat.pdb
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\obj\Debug\WFA_Automat.csproj.AssemblyReference.cache
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\obj\Debug\WFA_Automat.csproj.SuggestedBindingRedirects.cache
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\obj\Debug\WFA_Automat.Form1.resources
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\obj\Debug\WFA_Automat.Properties.Resources.resources
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\obj\Debug\WFA_Automat.csproj.GenerateResource.cache
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\obj\Debug\WFA_Automat.csproj.CoreCompileInputs.cache
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\obj\Debug\WFA_Automat.exe
+C:\Users\ENES PC\source\repos\WFA Introduction\WFA_Automat\WFA_Automat\obj\Debug\WFA_Automat.pdb

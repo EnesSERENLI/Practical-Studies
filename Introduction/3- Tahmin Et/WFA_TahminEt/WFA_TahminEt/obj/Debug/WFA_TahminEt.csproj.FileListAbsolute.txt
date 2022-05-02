@@ -1,0 +1,21 @@
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\07.03\WFA_TahminEt\WFA_TahminEt\bin\Debug\WFA_TahminEt.exe.config
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\07.03\WFA_TahminEt\WFA_TahminEt\bin\Debug\WFA_TahminEt.exe
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\07.03\WFA_TahminEt\WFA_TahminEt\bin\Debug\WFA_TahminEt.pdb
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\07.03\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.csproj.AssemblyReference.cache
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\07.03\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.Form1.resources
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\07.03\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.Properties.Resources.resources
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\07.03\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.csproj.GenerateResource.cache
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\07.03\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.csproj.CoreCompileInputs.cache
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\07.03\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.exe
+C:\Users\FatihGunalp\Desktop\YZL3156\C#\07.03\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.pdb
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\bin\Debug\WFA_TahminEt.exe.config
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\bin\Debug\WFA_TahminEt.exe
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\bin\Debug\WFA_TahminEt.pdb
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.csproj.AssemblyReference.cache
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.csproj.SuggestedBindingRedirects.cache
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.Form1.resources
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.Properties.Resources.resources
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.csproj.GenerateResource.cache
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.csproj.CoreCompileInputs.cache
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.exe
+C:\Users\ENES PC\source\repos\WFA_TahminEt\WFA_TahminEt\obj\Debug\WFA_TahminEt.pdb

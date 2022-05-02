@@ -1,8 +1,0 @@
-C:\Users\ENES PC\source\repos\Design Pattern\CarBuilder\CarBuilder\bin\Debug\CarBuilder.exe.config
-C:\Users\ENES PC\source\repos\Design Pattern\CarBuilder\CarBuilder\bin\Debug\CarBuilder.exe
-C:\Users\ENES PC\source\repos\Design Pattern\CarBuilder\CarBuilder\bin\Debug\CarBuilder.pdb
-C:\Users\ENES PC\source\repos\Design Pattern\CarBuilder\CarBuilder\obj\Debug\CarBuilder.csproj.AssemblyReference.cache
-C:\Users\ENES PC\source\repos\Design Pattern\CarBuilder\CarBuilder\obj\Debug\CarBuilder.csproj.SuggestedBindingRedirects.cache
-C:\Users\ENES PC\source\repos\Design Pattern\CarBuilder\CarBuilder\obj\Debug\CarBuilder.csproj.CoreCompileInputs.cache
-C:\Users\ENES PC\source\repos\Design Pattern\CarBuilder\CarBuilder\obj\Debug\CarBuilder.exe
-C:\Users\ENES PC\source\repos\Design Pattern\CarBuilder\CarBuilder\obj\Debug\CarBuilder.pdb
