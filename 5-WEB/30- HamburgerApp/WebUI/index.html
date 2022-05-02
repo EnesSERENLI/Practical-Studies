@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>McMan</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <meta name="description" content="Hamburgerini seç,siparişini ver keyfine bak" />
+    <meta name="author" content="Enes SERENLİ" />
+    <meta name="keywords" content="hamburger, yemek, mcman" />
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-light" style="background-color: #212529;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="margin-left:50px;">
+                <img src="Resources/istockphoto-564594766-1024x1024.jpg" alt="logo" width="80" height="75" class="d-inline-block align-text-top" />
+            </a>
+            <a class="navbar-brand" href="index.html" style="margin-right:auto; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                <h4 style="color:lightgray;">McMan</h4>
+            </a>
+            <a class="btn btn-outline-secondary" href="LoginPage.html" style="width: 130px; height: 70px; margin-right: 30px; line-height: 50px; background-color: #FFB72B;">Giriş Yap</a>
+            <a class="btn btn-outline-secondary" href="#" style="width: 130px; height: 70px; margin-right: 30px; line-height: 50px; background-color: #FFB72B;">Sepetim</a>
+        </div>
+    </nav>
+    <!--Content-->
+    <section id="tcm92-288040" class="skippable-container" role="main" tabindex="-1" style="background-color: #D1D1D1;">
+        <div class="container" style="width: 400px; height: 1070px; margin-left: 0px; float: left; background-color: #D1D1D1; border-right:groove; ">
+            <!-- #region sipariş oluştur yazısı -->
+
+            <div class="row" style="margin-top:20px;">
+                <h3 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align:center;">Sipariş Oluştur</h3>
+            </div>
+
+            <!-- #endregion -->
+            <!-- #region Logo2 -->
+
+            <div class="row">
+                <img src="Resources/440-4404377_hamburger-logo-de-hamburguesa-png.png" class="rounded mx-auto d-block" alt="logo" style="width:300px; height:200px;">
+            </div>
+
+            <!-- #endregion -->
+            <!-- #region combobox menü -->
+
+            <div class="row">
+                <div class="col-4" style="margin-top:10px;">
+                    <h6 class="modal-header">Menü Seç:</h6>
+                </div>
+                <div class="col-8">
+
+                    <select class="form-select" id="validationCustom04" style="width:250px; margin-left:auto; margin-right:auto; margin-top:20px;" required>
+                        <option selected value="">Whooper</option>
+                        <option selected value="">Tripple Whooper</option>
+                        <option selected value="">SteakHouse</option>
+                        <option selected value="">Chickhen Burger</option>
+                        <option selected disabled value="">Menüler</option>
+                    </select>
+                </div>
+            </div>
+            <!-- #endregion -->
+            <!-- #region Boyut seçme -->
+
+            <div class="row">
+                <div class="col-3" style="margin-top:20px;">
+                    <h6 class="modal-header">Boyut Seç:</h6>
+                </div>
+                <div class="col-3" style="margin-top:45px;">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Small
+                    </label>
+                </div>
+                <div class="col-3" style="margin-top:45px;">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Middle
+                    </label>
+                </div>
+                <div class="col-3" style="margin-top:45px;">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Large
+                    </label>
+                </div>
+            </div>
+
+            <!-- #endregion -->
+            <!-- #region Ekstralar -->
+
+            <div class="row" style="margin-top:30px;">
+                <h6 class="modal-header" style="width:130px;">Ekstra Seç</h6>
+                <div class="card" style="width: 100%; margin-left: auto; margin-right: 0px; background-color: #D1D1D1; border: hidden; ">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Ketçap
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Ranch
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Mayonez
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Sarımsaklı Mayonez
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Chaddar
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- #endregion -->
+            <label class="modal-header" style="width:100px;"></label>
+            <!-- #region Adet -->
+
+            <div class="row" style="margin-top:20px;">
+                <div class="col-4">
+                    <h6 class="modal-header"> Adet:</h6>
+                </div>
+                <div class="col-8">
+                    <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1" style="width:250px;">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- #endregion -->
+            <!-- #region Ödeme Yöntemi -->
+
+            <div class="row" style="margin-top:10px;">
+                <div class="col-4" style="margin-top:10px;">
+                    <h6 class="modal-header">Ödeme Yöntemi:</h6>
+                </div>
+                <div class="col-8">
+
+                    <select class="form-select" id="validationCustom04" style="width:250px; margin-left:auto; margin-right:auto; margin-top:20px;" required>
+                        <option selected value="">Maximum</option>
+                        <option selected value="">Axess</option>
+                        <option selected value="">WorldCard</option>
+                        <option selected disabled value="">Kart Seç</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- #endregion -->
+            <!-- #region Siparişi tamamla -->
+
+            <div class="row" style="margin-top:80px;">
+                <div class="col-12">
+                    <button type="button" class="btn btn-success btn-lg" style="width:100%;">Siparişi Tamamla</button>
+                </div>
+            </div>
+            <hr style="margin-top:100px;" />
+            <!-- #endregion -->
+        </div>
+        <div class="container" style="margin-right: 100px;">
+            <div class="row">
+                <!-- #region Whooper -->
+                <div class="col-sm-6 col-border">
+                    <h4 style="padding:10px;"> Whooper Menü </h4>
+                    <hr>
+                    <img src="Resources/burgerler-1.png" class="img-responsive img-rounded" />
+                    <br>
+                    <p>Whopper® eti, büyük boy susamlı sandviç ekmeği, salatalık turşusu, ketçap, mayonez, doğranmış marul, domates ve soğandan oluşan bir Burger King® klasiği. Enfes patates kızartması ve içeceğiyle birlikte Whopper® Menü keyfini istediğin gibi yaşa!</p>
+                    <br>
+                    <a href="#" class="btn btn-danger" style="width:100px;">Seç</a>
+                </div>
+
+                <!-- #endregion -->
+                <!-- #region Tippler Whooper -->
+
+                <div class="col-sm-6 col-border">
+                    <h4 style="padding:10px;"> Tripple Whooper Menü </h4>
+                    <hr>
+                    <img src="Resources/burger -2.png" class="img-responsive img-rounded" />
+                    <br>
+                    <p>3 adet Whopper® eti, büyük boy susamlı sandviç ekmeği, salatalık turşusu, ketçap, mayonez, göbek salata, domates ve soğandan oluşan nefis bir seçim. Enfes patates kızartması ve içeceğiyle birlikte Triple Whopper® Menü keyfini istediğin gibi yaşa!</p>
+                    <br>
+                    <a href="#" class="btn btn-danger" style="width:100px;">Seç</a>
+                </div>
+
+                <!-- #endregion -->
+                <!-- #region SteakHouse -->
+
+                <div class="col-sm-6 col-border">
+                    <h4 style="padding:10px;"> SteakHouse Menü </h4>
+                    <hr>
+                    <img src="Resources/burger -3.png" class="img-responsive img-rounded" />
+                    <br>
+                    <p>Kocaman Steakhouse eti, özel sosu, cheddar peyniri, domatesi, mayonezi, marulu ve çıtır kaplamalı soğanlarıyla sabrınızı zorlayacak bir lezzet. Enfes patates kızartması ve içeceğiyle birlikte McMAn Steakhouse Burger® Menü keyfini istediğin gibi yaşa!</p>
+                    <br>
+                    <a href="#" class="btn btn-danger" style="width:100px; margin-top:-9px;">Seç</a>
+                    <hr />
+                </div>
+
+                <!-- #endregion -->
+                <!-- #region ChickhenBurger -->
+
+                <div class="col-sm-6 col-border">
+                    <h4 style="padding:10px;"> ChickenBurger Menü </h4>
+                    <hr>
+                    <img src="Resources/burger - 4.png" class="img-responsive img-rounded" />
+                    <br>
+                    <p>Mısır gevreği kaplı çıtır çıtır tavuğu ve lezzetli acısıyla bir McMan® lezzeti! Enfes patates kızartması ve içeceğiyle birlikte McMan Crispy Chicken Menü keyfini istediğin gibi yaşa!</p>
+                    <br>
+                    <a href="#" class="btn btn-danger" style="width:100px; margin-top:15px;">Seç</a>
+                    <hr />
+                </div>
+
+                <!-- #endregion -->
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <div class="px-3 py-2 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="align-self-center col-md-2 col-xxl-1 mr-xxl-4 order-1 text-center text-md-left">
+                    <img src="Resources/istockphoto-564594766-1024x1024.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-8 col-xl-6 order-2">
+                    <nav class="flex-column flex-sm-row my-5 my-sm-0 nav nav-fill nav-pills">
+                        <a class="nav-item nav-link text-xxl-left pl-0" href="#" style="color:aliceblue;">Gizlilik ve Veri Güvenliği Politikası</a>
+                        <a class="nav-item nav-link text-xxl-left" href="#" data-toggle="modal" style="color: aliceblue;">Kullanım Koşulları</a>
+                        <a class="nav-item nav-link text-xxl-left" href="#" style="color: aliceblue;" >Bilgi Toplumu Hizmetleri</a>
+                    </nav>
+                    <p class="mb-0 muted small text-center text-sm-left text-muted">Copyright © Anadolu Restoran İşletmeleri Ltd. Şti.</p>
+                </div>
+                <div class="col-12 col-sm my-3 my-sm-0 order-2 text-center text-md-right">
+                    <a class="h1 nav-link text-warning" href="tel:4446262" style="font-family: 'LovinSans-Black'; text-align-last:end"> 545 365 7747</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
