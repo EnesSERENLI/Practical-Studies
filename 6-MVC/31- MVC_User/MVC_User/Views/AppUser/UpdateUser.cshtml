@@ -1,0 +1,46 @@
+﻿@model MVC_User.Models.AppUser
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UpdateUser</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="card col-md-3">
+        <div class="card-header">
+            <h5>Update Users</h5>
+        </div>
+        <div class="card-body">
+            <form method="post">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">ID:</span>
+                    <input class="form-control" disabled type="text" name="name" value="@Model.ID" />
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Username:</span>
+                    <input class="form-control" type="text" name="UserName" value="@Model.UserName" />
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Firstname:</span>
+                    <input class="form-control" type="text" name="FirstName" value="@Model.FirstName" />
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Lastname:</span>
+                    <input class="form-control" type="text" name="LastName" value="@Model.LastName" />
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Email:</span>
+                    <input class="form-control" type="text" name="Email" value="@Model.Email" />
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Password:</span>
+                    <input class="form-control" type="text" name="Password" value="@Model.Password" />
+                </div>
+                <button class="btn btn-success w-25" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
