@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Employees</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="/home/index">Northwind</a></li>
+            <li class="breadcrumb-item active">Tables</li>
+        </ol>
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                Employee List
+            </div>
+            <div class="card-body">
+                <a class="btn btn-primary float-end ms-3" href="/employee/addemployee">Add Employee</a>
+                <table id="datatablesSimple">
+                    <thead>
+                        <tr>
+                            <th>EmployeeID</th>
+                            <th>LastName</th>
+                            <th>FirstName</th>
+                            <th>Title</th>
+                            <th>TitleOfCourtesy</th>
+                            <th>BirthDate</th>
+                            <th>City</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var employee in ViewBag.Employees)
+                        {
+                            <tr>
+                                <td>@employee.EmployeeID</td>
+                                <td>@employee.LastName</td>
+                                <td>@employee.FirstName</td>
+                                <td>@employee.Title</td>
+                                <td>@employee.TitleOfCourtesy</td>
+                                @if (employee.BirthDate != null)
+                                {
+                                    <td>@employee.BirthDate</td>
+                                }
+                                else
+                                {
+                                    <td>NULL</td>
+                                }
+                                <td>@employee.City</td>
+                                <td>@employee.Country</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+

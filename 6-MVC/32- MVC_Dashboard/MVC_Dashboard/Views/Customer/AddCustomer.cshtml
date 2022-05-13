@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "AddCustomer";
+    Layout = "~/Views/Shared/_AddLayout.cshtml";
+}
+
+<main>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Add Customer</h3></div>
+                    <div class="card-body">
+                        <form method="post">
+                            <div class="col-md-12 mb-3">
+                                <div class="form-floating">
+                                    <input class="form-control" name="CustomerID" type="text" placeholder="Enter CustomerID" />
+                                    <label for="CustomerID">CustomerID</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-floating">
+                                    <input class="form-control" name="CompanyName" type="text" placeholder="Enter CompanyName" />
+                                    <label for="CompanyName">CompanyName</label>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input class="form-control" name="ContactName" type="text" placeholder="Enter ContactName" />
+                                        <label for="ContactName">ContactName</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <input class="form-control" name="ContactTittle" type="text" placeholder="Enter ContactTittle" />
+                                        <label for="ContactTittle">ContactTittle</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input class="form-control" name="Address" type="text" placeholder="Enter Address" />
+                                    <label for="Address">Address</label>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input class="form-control" name="City" type="text" placeholder="Enter City" />
+                                        <label for="City">City</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <input class="form-control" name="Country" type="text" placeholder="Enter Country" />
+                                        <label for="Country">Country</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input class="form-control" name="Phone" type="text" placeholder="Enter Phone" />
+                                    <label for="Phone">Phone</label>
+                                </div>
+                            </div>
+                            <div class="mt-4 mb-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary btn-block">Add Customer</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center py-3">
+                        <div class="small"><a class="text-dark" href="/home/index">Nortwind</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+

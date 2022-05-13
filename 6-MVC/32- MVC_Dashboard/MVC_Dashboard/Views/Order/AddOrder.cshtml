@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "AddOrder";
+    Layout = "~/Views/Shared/_AddLayout.cshtml";
+}
+
+<main>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Add Employee</h3></div>
+                    <div class="card-body">
+                        <form method="post">
+                            <div class="col-md-12 mb-3">
+                                <div class="form-floating">
+                                    <input class="form-control" name="CustomerID" type="text" placeholder="Enter CustomerID" />
+                                    <label for="CustomerID">CustomerID</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-floating">
+                                    <input class="form-control" name="EmployeeID" type="number" placeholder="Enter EmployeID" />
+                                    <label for="EmployeeID">EmployeeID</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input class="form-control" name="OrderDate" type="date" placeholder="Enter OrderDate" />
+                                    <label for="OrderDate">OrderDate</label>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input class="form-control" name="ShipVia" type="number" placeholder="Enter CompanyName" />
+                                        <label for="ShipVia">ShipVia</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <input class="form-control" name="ShipName" type="text" placeholder="Enter ShipName" />
+                                        <label for="ShipName">ShipName</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input class="form-control" name="ShipCity" type="text" placeholder="Enter ShipCity" />
+                                        <label for="ShipCity">ShipCity</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <input class="form-control" name="ShipCountry" type="text" placeholder="Enter Country" />
+                                        <label for="ShipCountry">ShipCountry</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-floating">
+                                    <input class="form-control" name="Freight" type="number" placeholder="Enter Freight" />
+                                    <label for="Freight">Freight</label>
+                                </div>
+                            </div>
+                            <div class="mt-4 mb-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary btn-block">Add Order</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center py-3">
+                        <div class="small"><a class="text-dark" href="/home/index">Nortwind</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+

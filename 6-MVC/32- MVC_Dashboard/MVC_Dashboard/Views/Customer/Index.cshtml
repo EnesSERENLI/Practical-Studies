@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Customers</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="/home/index">Northwind</a></li>
+            <li class="breadcrumb-item active">Tables</li>
+        </ol>
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                Customer List
+            </div>
+            <div class="card-body">
+                <a class="btn btn-primary float-end ms-3" href="/customer/addcustomer">Add Customer</a>
+                <table id="datatablesSimple">
+                    <thead>
+                        <tr>
+                            <th>CustomerID</th>
+                            <th>CompanyName</th>
+                            <th>ContactName</th>
+                            <th>ContactTittle</th>
+                            <th>Address</th>
+                            <th>City</th>
+                            <th>Country</th>
+                            <th>Phone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var customer in ViewBag.Customer as List<MVC_Dashboard.Models.Customer>)
+                        {
+                            <tr>
+                                <td>@customer.CustomerID</td>
+                                <td>@customer.CompanyName</td>
+                                <td>@customer.ContactName</td>
+                                <td>@customer.ContactTitle</td>
+                                <td>@customer.Address</td>
+                                <td>@customer.City</td>
+                                <td>@customer.Country</td>
+                                <td>@customer.Phone</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+

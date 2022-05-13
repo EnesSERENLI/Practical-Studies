@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "AddEmployee";
+    Layout = "~/Views/Shared/_AddLayout.cshtml";
+}
+
+<main>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Add Employee</h3></div>
+                    <div class="card-body">
+                        <form method="post">
+                            <div class="col-md-12 mb-3">
+                                <div class="form-floating">
+                                    <input class="form-control" name="LastName" type="text" placeholder="Enter Lastname" />
+                                    <label for="LastName">LastName</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-floating">
+                                    <input class="form-control" name="FirstName" type="text" placeholder="Enter Firstname" />
+                                    <label for="FirstName">FirstName</label>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input class="form-control" name="Title" type="text" placeholder="Enter Title" />
+                                        <label for="Title">Title</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <input class="form-control" name="TitleOfCourtesy" type="text" placeholder="Enter TitleOfCourtesy" />
+                                        <label for="TitleOfCourtesy">TitleOfCourtesy</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input class="form-control" name="BirthDate" type="date" placeholder="Enter BirthDate" />
+                                    <label for="BirthDate">BirthDate</label>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input class="form-control" name="City" type="text" placeholder="Enter City" />
+                                        <label for="City">City</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <input class="form-control" name="Country" type="text" placeholder="Enter Country" />
+                                        <label for="Country">Country</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 mb-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary btn-block">Add Employee</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center py-3">
+                        <div class="small"><a class="text-dark" href="/home/index">Nortwind</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+

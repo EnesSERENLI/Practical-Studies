@@ -1,0 +1,44 @@
+﻿@model MVC_Dashboard.Models.Order_Detail
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Order Detail</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="/home/index">Northwind</a></li>
+            <li class="breadcrumb-item active">Tables</li>
+        </ol>
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                Order Details
+            </div>
+            <div class="card-body">
+                <table id="datatablesSimple">
+                    <thead>
+                        <tr>
+                            <th>OrderID</th>
+                            <th>ProductID</th>
+                            <th>UnitPrice</th>
+                            <th>Quantity</th>
+                            <th>Discount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>@Model.OrderID</td>
+                            <td>@Model.ProductID</td>
+                            <td>@Model.UnitPrice</td>
+                            <td>@Model.Quantity</td>
+                            <td>@Model.Discount</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+
