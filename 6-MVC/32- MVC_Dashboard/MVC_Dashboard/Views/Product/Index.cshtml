@@ -1,12 +1,12 @@
 ﻿@model List<MVC_Dashboard.Models.Product>
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Products";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <main>
     <div class="container-fluid px-4">
-        <h1 class="mt-4">Products</h1>
+        <h1 class="mt-4">@ViewBag.Title</h1>
         <ol class="breadcrumb mb-4">
             <li class="breadcrumb-item"><a href="/home/index">Northwind</a></li>
             <li class="breadcrumb-item active">Tables</li>
