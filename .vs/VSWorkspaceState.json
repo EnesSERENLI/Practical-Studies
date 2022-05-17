@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\6-MVC",
+    "\\6-MVC\\32- MVC_Dashboard",
+    "\\6-MVC\\32- MVC_Dashboard\\MVC_Dashboard",
+    "\\6-MVC\\32- MVC_Dashboard\\MVC_Dashboard\\Controllers"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\6-MVC\\32- MVC_Dashboard\\MVC_Dashboard\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
