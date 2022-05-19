@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Activation</title>
+    <link href="~/Contant/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="text-success text-center">Hoşgeldiniz!</h2>
+            </div>
+            <div class="card-body">
+                <p class="text-center text-success">Üyeliğiniz başarılı bir şekilde gerçekleştirilmiştir..
+                    <hr />
+                @Html.ActionLink("Buraya", "Index", "Login", new {@class = "text-center"}) tıklayarak giriş sayfasına dönebilirsiniz.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

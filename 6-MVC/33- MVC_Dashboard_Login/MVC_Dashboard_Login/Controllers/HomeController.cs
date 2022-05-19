@@ -12,6 +12,7 @@ namespace MVC_Dashboard_Login.Controllers
     public class HomeController : Controller
     {
         // GET: Home
+        [MVC_Dashboard_Login.CustomFilters.ActionFilter]
         public ActionResult Index()
         {
             AppUser appUser = Session["login"] as AppUser;  

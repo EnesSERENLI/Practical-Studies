@@ -21,7 +21,7 @@ namespace MVC_Dashboard_Login.Controllers
         {            
             if (ModelState.IsValid)
             {
-                bool result = db.AppUsers.Any(x => x.UserName == loginUser.UserName && x.Password == loginUser.Password);
+                bool result = db.AppUsers.Any(x => x.UserName == loginUser.UserName && x.Password == loginUser.Password && x.ComfirmEmail == true);
                 if (result)
                 {
                     AppUser appUser = db.AppUsers.Where(x => x.UserName == loginUser.UserName).FirstOrDefault();

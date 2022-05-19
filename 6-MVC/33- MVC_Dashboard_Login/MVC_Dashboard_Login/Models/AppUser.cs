@@ -11,27 +11,14 @@ namespace MVC_Dashboard_Login.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
     
     public partial class AppUser
     {
         public int Id { get; set; }
-        [Required(ErrorMessage ="Kullanýcý adý boþ geçilemez!")]
-        [Display(Name ="Kullanýcý Adý")]
         public string UserName { get; set; }
-        [Required(ErrorMessage ="Email boþ geçilemez!")]
-        [Display (Name ="E-posta")]
-        [EmailAddress(ErrorMessage ="e-posta adresi => ....@hotmail.com formatýnda olmalýdýr. ")]
         public string Email { get; set; }
-        [Required(ErrorMessage ="Þifre kýsmý boþ geçilemez!")]
-        [Display(Name ="Þifre")]
+        public bool ComfirmEmail { get; set; }
         public string Password { get; set; }
-
-        [Required(ErrorMessage = "Þifre(Tekrar) boþ geçilemez!")]
-        [Display(Name = "Þifre Tekrar")]
-        [NotMapped]
-        [Compare("Password", ErrorMessage = "Þifreler ayný deðil!")]
         public string ConfirmPassword { get; set; }
     }
 }

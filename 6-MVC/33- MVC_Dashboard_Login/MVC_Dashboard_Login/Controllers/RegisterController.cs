@@ -1,4 +1,5 @@
 ﻿using MVC_Dashboard_Login.Models;
+using MVC_Dashboard_Login.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Web.Mvc;
 
 namespace MVC_Dashboard_Login.Controllers
 {
+    
     public class RegisterController : Controller
     {
         MVCFilterDBEntities db = new MVCFilterDBEntities();
@@ -15,7 +17,8 @@ namespace MVC_Dashboard_Login.Controllers
         {
             return View();
         }
-        [HttpPost]
+        
+        [HttpPost]        
         public ActionResult Index(AppUser appUser)
         {
             if (ModelState.IsValid)
@@ -29,9 +32,14 @@ namespace MVC_Dashboard_Login.Controllers
                     }
                     else
                     {
+                        var callBackUrl = Url.Action("Activation", "Register", new {                            
+                            UserName = appUser.UserName,
+                            Id = db.AppUsers.Count()+1
+                        });
                         db.AppUsers.Add(appUser);
                         db.SaveChanges();
-                        return RedirectToAction("Index", "Home");
+                        MailSender.SendMail(appUser.Email,"Activation", "Merhaba! \n Üyeliğinizi aktif hale getirebilmek için lütfen aşağıdaki linke tıklayınız.. \n https://localhost:44395"+callBackUrl);         
+                        return RedirectToAction("Index", "Login");
                     }
                 }
                 catch (Exception)
@@ -43,6 +51,14 @@ namespace MVC_Dashboard_Login.Controllers
             {
                 return View(appUser);
             }
+        }
+
+        public ActionResult Activation(string UserName,int id)
+        {
+            AppUser appUser = db.AppUsers.Where(x => x.UserName == UserName).FirstOrDefault();
+            appUser.ComfirmEmail = true;
+            db.SaveChanges();
+            return View();
         }
     }
 }
