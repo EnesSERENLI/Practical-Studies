@@ -107,6 +107,8 @@
     <Content Include="Contant\js\scripts.js" />
     <Content Include="Contant\login.html" />
     <Content Include="Contant\register.html" />
+    <Content Include="Contant\tables.html" />
+    <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -122,11 +124,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Member\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Member\MemberAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="CustomFilters\ActionFilter.cs" />
+    <Compile Include="CustomFilters\AuthAdminFilter.cs" />
     <Compile Include="CustomFilters\AuthFilter.cs" />
+    <Compile Include="CustomFilters\AuthMemberFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -167,6 +175,14 @@
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Employee.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Supplier.cshtml" />
+    <Content Include="Areas\Member\Views\web.config" />
+    <Content Include="Areas\Member\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Member\Views\Home\Customer.cshtml" />
+    <Content Include="Areas\Member\Views\Home\Shipper.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Register\Index.cshtml" />
@@ -181,6 +197,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\Member\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
