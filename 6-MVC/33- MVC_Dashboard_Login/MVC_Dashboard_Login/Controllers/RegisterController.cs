@@ -38,7 +38,7 @@ namespace MVC_Dashboard_Login.Controllers
                         });
                         db.AppUsers.Add(appUser);
                         db.SaveChanges();
-                        MailSender.SendMail(appUser.Email,"Activation", "Merhaba! \n Üyeliğinizi aktif hale getirebilmek için lütfen aşağıdaki linke tıklayınız.. \n https://localhost:44395"+callBackUrl);         
+                        MailSender.SendMail(appUser.Email,"Activation", "<h2>Merhaba!</h2> </hr> <p style='color:green'>Üyeliğinizi aktif hale getirebilmek için lütfen aşağıdaki linke tıklayınız..</p> </hr> https://localhost:44395" + callBackUrl);         
                         return RedirectToAction("Index", "Login");
                     }
                 }

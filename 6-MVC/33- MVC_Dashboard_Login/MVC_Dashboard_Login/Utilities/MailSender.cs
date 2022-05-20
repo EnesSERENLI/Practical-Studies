@@ -17,6 +17,7 @@ namespace MVC_Dashboard_Login.Utilities
             mail.To.Add(email);
             mail.Subject = subject;
             mail.Body = message;
+            mail.IsBodyHtml = true; //Mail body'de html kodları yorumlanması için true olması gerekiyor... 
 
             SmtpClient smtp = new SmtpClient();
             smtp.Credentials = new NetworkCredential("yzl3156yzl@gmail.com", "Yzl3156--");
