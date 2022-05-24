@@ -1,0 +1,5 @@
+﻿--NTier ECommerce Project
+
+--Katmanlar
+--Data Access
+-veriye ulaşım katmanı. Entity, Map, Context. Bağımlılıklar => EntityFramework
