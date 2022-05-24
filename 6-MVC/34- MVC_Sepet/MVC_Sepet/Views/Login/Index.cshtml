@@ -1,0 +1,46 @@
+﻿@model LoginUser
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+<main class="bg-primary" style="height:770px;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-5">
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Login</h3></div>
+                    <div class="card-body">
+                        @if (TempData["ErrorLogin"] != null)
+                        {
+                            <h3>@TempData["ErrorLogin"]</h3>
+                        }
+                        <form method="post">
+                            <div class="form-floating mb-3">
+                                @*<input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />*@
+                                @Html.ValidationMessageFor(x => x.UserName)
+                                @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", @placeholder = "username" })
+                                <label for="inputUserName">@Html.DisplayNameFor(x => x.UserName)</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                @Html.ValidationMessageFor(x => x.Password)
+                                @Html.PasswordFor(x => x.Password, new { @class = "form-control", @placeholder = "password" })
+                                <label for="inputPassword">@Html.DisplayNameFor(x => x.Password)</label>
+                            </div>
+                            <div class="form-floating mt-4 mb-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary btn-block" type="submit">Login</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center py-3">
+                        <div class="small"><a href="/register/index">Need an account? Sign up!</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+

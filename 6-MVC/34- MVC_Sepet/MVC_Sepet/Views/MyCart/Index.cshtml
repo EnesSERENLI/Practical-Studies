@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "MyCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var sessionCart = Session["scart"] as Cart;
+    decimal? totalPrice = 0;
+}
+
+<div class="row">
+    <div class="col-md-9">
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total Price</th>
+                    <th>Sipariş İptal</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in sessionCart.myCart)
+                {
+                    totalPrice += item.SubTotal;
+                    <tr>
+                        <td>
+                            <img class="card-img myCart-img" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                        </td>
+                        <td>@item.ProductName</td>
+                        <td>
+                            <div class="input-group">
+                                @*<button class="btn btn-secondary" id="decrease">-</button>*@
+                                @Html.ActionLink("-", "Decrease", "Home", new { id = item.Id }, new { @class = "btn btn-secondary" })
+                                <input style="width:50px;" class="form-control-sm text-center" disabled type="number" id="Quantity" value="@item.Quantity" />
+                                @*<button class="btn btn-secondary" id="increase">+</button>*@
+                                @Html.ActionLink("+", "Increase", "Home", new { id = item.Id }, new { @class = "btn btn-secondary" })
+                            </div>
+                        </td>
+                        <td>@item.Price</td>
+                        <td>@item.SubTotal</td>
+                        <td>@Html.ActionLink(" ", "DeleteToCart", "Home", new { id = item.Id }, new {@class="btn btn-close"})</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h5>Özet</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <h5>Genel Toplam: </h5>
+                    <h5>@totalPrice</h5>
+                </div>
+                <div class="col-md-12 mt-5">
+                    @Html.ActionLink("Alişverişi Tamamla", "ComplateCart", "MyCart", null, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Devam Et", "Index", "Home", null, new { @class = "btn" })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
