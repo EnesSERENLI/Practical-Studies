@@ -1,9 +1,11 @@
 ﻿using Core;
 using Core.Service;
 using DataAccess.Context;
+using DataAccess.Entity;
 using DataAccess.Tools;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -15,12 +17,27 @@ namespace Service.Base
     public class BaseService<T> : ICoreService<T> where T : EntityRepository
     {
         EcommerceContext context = DbContextSingleton.Context;
+        public EcommerceContext GetContext()
+        {
+            return context;
+        }
         //Ekleme
         public string Add(T model)
         {
-            context.Set<T>().Add(model);
-            context.SaveChanges();
-            return "Veri eklendi!";
+            //todo: her veri kaydedildiğinde created propertyleri doldurulacak.
+            //todo: her veri kaydedildiğinde created IP adresi yakalacak.
+            try
+            {
+                model.ID = Guid.NewGuid();
+                context.Set<T>().Add(model);
+                context.SaveChanges();
+                return "Veri eklendi!";
+            }
+            catch (Exception ex)
+            {
+
+                return ex.Message;
+            }
         }
         //Liste şeklinde ekleme
         public string Add(List<T> models)
@@ -74,6 +91,7 @@ namespace Service.Base
             try
             {
                 context.Set<T>().Remove(model);
+                context.SaveChanges();
                 return "Veri kalıcı olarak silindi";
             }
             catch (Exception ex)
@@ -84,10 +102,13 @@ namespace Service.Base
         //Güncelleme
         public string Update(T model)
         {
-            try
+            try 
             {
                 T updated = GetById(model.ID);
-                context.Entry(updated).State = System.Data.Entity.EntityState.Modified;
+                //context.Entry(updated).State = System.Data.Entity.EntityState.Modified; singleton yüzünden sıkıntı çıkarıyor olabilir..
+                DbEntityEntry entity =context.Entry(updated);
+                entity.CurrentValues.SetValues(model);
+                //context.Entry(updated).CurrentValues.SetValues(model);
                 context.SaveChanges();
                 return $"{model.ID} nolu veri güncellendi!";
             }

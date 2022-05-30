@@ -14,6 +14,7 @@ namespace DataAccess.Entity
         public decimal UnitPrice { get; set; }
         public short UnitInStock { get; set; }
         public string ProductImagePath { get; set; }
+        public string Description { get; set; }
 
         public Guid SubCategoryId { get; set; }
         public Guid SupplierId { get; set; }
