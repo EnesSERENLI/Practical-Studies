@@ -28,14 +28,10 @@ namespace WebApi_CRUDs.Controllers
             return Json(EmployeeList());
         }
 
-        public IHttpActionResult PostAddEmployee(string title,string firstName,string lastName)
+        public IHttpActionResult PostAddEmployee(Employee employee)
         {
             try
             {
-                Employee employee = new Employee();
-                employee.FirstName = firstName;
-                employee.LastName = lastName;
-                employee.Title = title;
                 if (employee != null)
                 {
                     db.Employees.Add(employee);
@@ -75,17 +71,13 @@ namespace WebApi_CRUDs.Controllers
             }
         }
 
-        public IHttpActionResult PutEmployee(int id, string title, string firstName, string lastName)
+        public IHttpActionResult PutEmployee(Employee employee)
         {
             try
             {
-                Employee updated = db.Employees.Find(id);
-                if (updated != null)
+                if (employee != null)
                 {                    
-                    updated.Title = title;
-                    updated.FirstName = firstName;
-                    updated.LastName = lastName;
-                    db.Entry(updated).State = System.Data.Entity.EntityState.Modified;
+                    db.Entry(employee).State = System.Data.Entity.EntityState.Modified;
                     db.SaveChanges();
                     return Ok(EmployeeList()); 
                 }

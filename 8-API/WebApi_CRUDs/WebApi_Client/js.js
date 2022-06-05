@@ -42,10 +42,12 @@ $(function () {
                 var title = document.getElementById('employeeTitle').value;
                 var firstName = document.getElementById('employeeFirstName').value;
                 var lastName = document.getElementById('employeeLastName').value;
-                console.log(title + " " + firstName)
+                var employee = new Employee(title, firstName, lastName);
+                employee.EmployeeID = currentId;
                 $.ajax({
                     method: 'Put',
-                    url: 'https://localhost:44376/api/employees/PutEmployee/' + currentId + "/" + title + "/" + firstName + "/" + lastName,
+                    url: 'https://localhost:44376/api/employees',
+                    data: employee,
                     success: function (data) {
                         BringData(data)
                     }
@@ -64,7 +66,8 @@ $(function () {
         var employee = new Employee(title, firstName, lastName);
         $.ajax({
             method: 'Post',
-            url: 'https://localhost:44376/api/employees/PostAddEmployee/' + title + "/" + firstName + "/" + lastName,
+            url: 'https://localhost:44376/api/employees/PostAddEmployee',
+            data: employee,
             success: function (data) {
                 BringData(data)
             }
@@ -84,6 +87,7 @@ $(function () {
 })
 
 class Employee {
+    EmployeeID;
     Title;
     FirstName;
     LastName;

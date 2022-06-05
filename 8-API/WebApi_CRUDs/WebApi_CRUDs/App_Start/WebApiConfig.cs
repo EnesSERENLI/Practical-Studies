@@ -18,15 +18,11 @@ namespace WebApi_CRUDs
             // Web API routes
             config.MapHttpAttributeRoutes();
 
-            //CustomRoute For Update
+            //CustomRoute For AddEmployee
             config.Routes.MapHttpRoute(
-                name: "UpdateEmployee",
-                routeTemplate: "api/{controller}/{action}/{id}/{title}/{firstName}/{lastName}"
-                );
-            //CustomRoute For Add
-            config.Routes.MapHttpRoute(
-                name:"AddEmployee",
-                routeTemplate: "api/{controller}/{action}/{title}/{firstName}/{lastName}"
+                name: "AddEmployee",
+                routeTemplate: "api/{controller}/{action}",
+                defaults: new {action = RouteParameter.Optional}
                 );
 
             config.Routes.MapHttpRoute(

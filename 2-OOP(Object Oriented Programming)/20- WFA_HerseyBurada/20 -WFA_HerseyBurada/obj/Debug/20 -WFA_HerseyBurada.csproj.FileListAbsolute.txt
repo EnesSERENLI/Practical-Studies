@@ -26,3 +26,31 @@ C:\Users\ENES PC\Desktop\Practical studies\20 -WFA_HerseyBurada\20 -WFA_HerseyBu
 C:\Users\ENES PC\Desktop\Practical studies\20 -WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.KadinGiyimEkle.resources
 C:\Users\ENES PC\Desktop\Practical studies\20 -WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.KadınGiyimGuncelle.resources
 C:\Users\ENES PC\Desktop\Practical studies\20 -WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.KadınGiyimSil.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\bin\Debug\20 -WFA_HerseyBurada.exe.config
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\bin\Debug\20 -WFA_HerseyBurada.exe
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\bin\Debug\20 -WFA_HerseyBurada.pdb
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\20 -WFA_HerseyBurada.csproj.AssemblyReference.cache
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\20 -WFA_HerseyBurada.csproj.SuggestedBindingRedirects.cache
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.Bilgisayar_Sil.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.Bilgisayar.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.BilgisayarEkle.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.BilgisayarGuncelle.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.ErkekGiyim.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.ErkekGiyimEkle.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.ErkekGiyimGuncelle.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.ErkekGiyimSil.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.GirisForm.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.CepTelefonu.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.KadinGiyim.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.KadinGiyimEkle.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.KadınGiyimGuncelle.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.KadınGiyimSil.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.Properties.Resources.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.Sepetim.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.TelefonEkle.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.TelefonGuncelle.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\_20__WFA_HerseyBurada.TelefonSil.resources
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\20 -WFA_HerseyBurada.csproj.GenerateResource.cache
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\20 -WFA_HerseyBurada.csproj.CoreCompileInputs.cache
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\20 -WFA_HerseyBurada.exe
+C:\Users\ENES PC\Desktop\Practical studies\2-OOP(Object Oriented Programming)\20- WFA_HerseyBurada\20 -WFA_HerseyBurada\obj\Debug\20 -WFA_HerseyBurada.pdb
