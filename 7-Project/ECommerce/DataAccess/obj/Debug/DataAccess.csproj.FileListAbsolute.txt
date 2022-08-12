@@ -13,3 +13,18 @@ C:\Users\ENES PC\source\repos\Project\ECommerce\DataAccess\obj\Debug\DataAccess.
 C:\Users\ENES PC\source\repos\Project\ECommerce\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\ENES PC\source\repos\Project\ECommerce\DataAccess\obj\Debug\DataAccess.pdb
 C:\Users\ENES PC\source\repos\Project\ECommerce\DataAccess\bin\Debug\Core.dll.config
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\bin\Debug\Core.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\bin\Debug\Core.pdb
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\bin\Debug\Core.dll.config
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\DataAccess\obj\Debug\DataAccess.pdb

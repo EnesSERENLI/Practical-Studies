@@ -16,3 +16,21 @@ C:\Users\ENES PC\source\repos\Project\ECommerce\Service\obj\Debug\Service.csproj
 C:\Users\ENES PC\source\repos\Project\ECommerce\Service\obj\Debug\Service.csproj.CopyComplete
 C:\Users\ENES PC\source\repos\Project\ECommerce\Service\obj\Debug\Service.dll
 C:\Users\ENES PC\source\repos\Project\ECommerce\Service\obj\Debug\Service.pdb
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\Service.dll.config
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\Service.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\Service.pdb
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\Core.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\DataAccess.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\EntityFramework.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\Core.pdb
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\Core.dll.config
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\DataAccess.pdb
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\DataAccess.dll.config
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\EntityFramework.xml
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\obj\Debug\Service.csproj.AssemblyReference.cache
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\obj\Debug\Service.csproj.CopyComplete
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\obj\Debug\Service.dll
+C:\Users\ENES PC\Desktop\Practical studies\7-Project\ECommerce\Service\obj\Debug\Service.pdb

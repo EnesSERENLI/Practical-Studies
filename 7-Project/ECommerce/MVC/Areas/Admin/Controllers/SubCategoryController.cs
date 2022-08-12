@@ -25,7 +25,7 @@ namespace MVC.Areas.Admin.Controllers
         {
             try
             {
-                bool result = subCategoryService.Any(x => x.ID == subCategory.ID);
+                bool result = subCategoryService.Any(x => x.SubCategoryName == subCategory.SubCategoryName);
                 if (result)
                 {
                     TempData["message"] = "Bu Subcategory zaten mevcut!";
