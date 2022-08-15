@@ -1,0 +1,38 @@
+﻿@model Presentation.Models.DTO.AddProductDTO
+@{
+    ViewBag.Title = "AddProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form action="AddProduct" method="post">
+    <div class="container">
+        <div class="form-control">
+            @Html.ValidationMessageFor(x => x.ProductName, null, new {@class = "text-danger"})
+            @Html.LabelFor(x => x.ProductName)
+            @Html.TextBoxFor(x => x.ProductName, new { @class = "form-control" })
+
+            @Html.ValidationMessageFor(x => x.Description, null, new { @class = "text-danger" })
+            @Html.LabelFor(x => x.Description)
+            @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+
+            @Html.ValidationMessageFor(x => x.UnitPrice, null, new { @class = "text-danger" })
+            @Html.LabelFor(x => x.UnitPrice)
+            @Html.TextBoxFor(x => x.UnitPrice, new { @class = "form-control" })
+
+            @Html.ValidationMessageFor(x => x.UnitsInStock, null, new { @class = "text-danger" })
+            @Html.LabelFor(x => x.UnitsInStock)
+            @Html.TextBoxFor(x => x.UnitsInStock, new { @class = "form-control" })
+
+            <label>CategoryName</label>
+            <select class="form-control" name="CategoryId">
+                @foreach (var item in ViewBag.Categories)
+                {
+                    <option value="@item.ID">@item.CategoryName</option>
+                }
+            </select>
+
+        </div>
+        <button class="btn btn-success mt-2">Submit</button>
+    </div>
+</form>
+

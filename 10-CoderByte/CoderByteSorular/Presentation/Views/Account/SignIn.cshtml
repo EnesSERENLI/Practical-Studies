@@ -1,0 +1,46 @@
+﻿@model Presentation.Models.DTO.LoginDTO
+@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SignIn</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+            <div class="col-md-10 mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-light" method="post" action="SignIn">
+                    @if (TempData["error"] != null)
+                    {
+                        <p>@TempData["error"]</p>
+                    }
+                    <div class="form-floating mb-3">
+                        @Html.ValidationMessageFor(x=>x.UserName)
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="UserName">
+                        <label for="floatingInput">UserName</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        @Html.ValidationMessageFor(x => x.Password)
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                    <hr class="my-4">
+                    <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿@model List<OrderDetail>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="alert-danger">
+        @if (TempData["message"] != null)
+        {
+            <p class="text-danger">@TempData["message"]</p>
+        }
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>ProductName</th>
+                <th>OrderDate</th>
+                <th>UnitPrice</th>
+                <th>Quantity</th>
+                <th>SubTotal</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Order.ID</td>
+                    <td>@item.Product.ProductName</td>
+                    <td>@item.Order.OrderDate</td>
+                    <td>@item.UnitPrice</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.SubTotal</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
