@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <style>
+        input.ng-invalid {
+            border: 2px solid red;
+        }
+
+        input.ng-valid {
+            border: 2px solid green;
+        }
+
+        input.ng-empty {
+            border: solid;
+        }
+    </style>
+</head>
+<body>
+    <div ng-app="myAngular" ng-controller="myController">
+        <p ng-bind="firstName"></p>
+        <p>{{lastName}}</p>
+
+        <h1>{{person.name +' ' +person.surname}}</h1>
+        <h1 ng-bind="person.name+' '+person.surname" +></h1>
+
+        <h2>sonuç = {{person.age+num1}}</h2>
+
+        <h3 ng-bind="days[1]"></h3>
+
+        <h2>Fullname: {{fullName()}}</h2>
+
+        <br />
+        <input type="text" ng-model="day" />
+        <p>Day: {{day}}</p>
+
+        <h1>{{days[2]}}</h1>
+
+        <p ng-click="orderMe('age')">Yaşa göre sıralama Yap</p> @*yazıya tıklandığında orderMe func. çalışacak!*@
+        <ul>
+            <li ng-repeat="x in person | orderBy:writeMe">{{x.name + ' '+x.surname + ' '+ x.age}}</li> <!--Ng-repeat => döngü-->
+        </ul>
+
+        @*Custom Filter*@
+        <ul>
+            <li ng-repeat="x in days">{{x | myCustomFilter}}</li>
+        </ul>
+
+        <hr /><br />
+
+        <test-directive></test-directive>
+
+        <div class="test-directive" style="background-color:antiquewhite">
+
+        </div>
+
+        <div test-directive style="background-color:chartreuse;"></div>
+
+        <form name="myFrm">
+            E-mail = <input type="email" name="myAddress" ng-model="eposta" required />
+            <h3 ng-show="myFrm.myAddress.$error.email">Email tipinde bir adres giriniz!</h3>
+            <h3>Valid: {{myFrm.myAddress.$valid}}</h3>
+            <h3>Dirty: {{myFrm.myAddress.$dirty}}</h3>
+            <h3>Touched: {{myFrm.myAddress.$touched}}</h3>
+        </form>
+        <hr />
+        <h1>Location servisi</h1>
+        <h3>{{url}}</h3>
+        <hr />
+        <h1>Http servisi</h1>
+        <button ng-click="GetEmployee()">Employee Çek</button>
+        <h2 ng-repeat="x in employees">{{x.FirstName+" "+x.LastName+" "+x.Age}}</h2>
+
+        <ul>
+            <li ng-repeat="x in employees">FirstName: {{x.FirstName+' '+x.LastName}}</li>
+        </ul>
+
+        <h3>StatusCode: {{statusCode}}</h3>
+        <h3>StatusText: {{statusText}}</h3>
+        <hr />
+        <h1>Custom Service</h1>
+        <h2>CustomService hex =>{{hexNumber}}</h2>
+        <h2>Filter içerisinde service =>{{200 | hexFilter}}</h2>
+
+        <a href="/Home/GetEmployees">content</a>
+
+        <hr />
+        <select ng-model="selectedValue" ng-options="x.name+' '+x.surname for x in person">
+            @*<option ng-repeat="x in person" value="{{x.name}}">{{x.name+" "+x.surname}}</option>*@
+        </select>
+        <h2>{{selectedValue.name}}</h2>
+        <h2>{{selectedValue.surname}}</h2>
+        <h2>{{selectedValue.age}}</h2>
+    </div>
+    <script src="~/js/app.js"></script>
+    <script src="~/js/controller.js"></script>
+</body>
+</html>
